@@ -34,11 +34,11 @@ load_dotenv()
 
 log = getLogger("- valeri ->")
 # Environment variables
-TOKEN = getenv("TOKEN")
-API_KEY = getenv("API_KEY")
-API_HASH = getenv("API_HASH")
+TOKEN = getenv("TOKEN","7320395583:AAGK1fxOZHZi25m10CbiHSf6-DcykXeLaIc")
+API_KEY = getenv("API_KEY","1382752")
+API_HASH = getenv("API_HASH","073e714e0fefd78b160510a4e72c6b18")
 MONGO_DB = getenv("MONGO_DB", "")
-OWNER_ID = int(getenv("OWNER_ID", "0"))
+OWNER_ID = int(getenv("OWNER_ID", "1913299756"))
 TMDB_KEY = getenv("TMDB_KEY")  # required for !imdb
 OPENAI_API_KEY = getenv("OPENAI_API_KEY")
 
